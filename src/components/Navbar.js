@@ -57,7 +57,7 @@ const Navbarmenu = () => {
                 <a href="/About">About</a>
               </li>
               <li>
-                <a href="#">
+                <a href="">
                   Products <i className="fas fa-caret-down" />
                 </a>
                 <ul className="sub-menu">
@@ -144,7 +144,7 @@ const Navbarmenu = () => {
                 </ul>
               </li>
               <li>
-                <a href="#">
+                <a href="">
                   News
                   <i className="fas fa-caret-down" />
                 </a>
