@@ -54,7 +54,7 @@ const Navbarmenu = () => {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/About">About</a>
+                <a href="/about">About</a>
               </li>
               <li>
                 <a href="/products">
