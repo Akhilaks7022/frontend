@@ -47,7 +47,7 @@ const App = () => {
         <div style={{ marginTop: "93px" }}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/About" element={<About />} />
             <Route path="/SM" element={<SM />} />
             <Route path="/SM1" element={<SM1 />} />
             <Route path="/SM2" element={<SM2 />} />
