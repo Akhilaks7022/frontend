@@ -10,7 +10,7 @@ function Login() {
   const onFinish = async (values) => {
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/registration/verify/email",
+        "https://swastha.onrender.com/registration/verify/email",
         {
           email: values.email,
           password: values.password,

@@ -27,7 +27,7 @@ function Register() {
       }
 
       const response = await axios.post(
-        "http://localhost:4000/api/registration/add",
+        "https://swastha.onrender.com/registration/add",
         requestData
       );
 

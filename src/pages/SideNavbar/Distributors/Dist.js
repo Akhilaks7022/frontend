@@ -32,7 +32,7 @@ const Dist = () => {
         return;
       }
   
-      const response = await axios.post("http://localhost:4000/api/registration/verify/user/sendEmail", {
+      const response = await axios.post("https://swastha.onrender.com/registration/verify/user/sendEmail", {
         name: "Swastha Technovations", // Receiver name
         email: "info@atmaparikshan.com", // Receiver email
         senderName, // Sender's name retrieved from local storage

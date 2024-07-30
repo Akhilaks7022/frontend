@@ -33,7 +33,7 @@ const Profile = () => {
     event.preventDefault();
     try {
       const response = await axios.put(
-        `http://localhost:4000/api/registration/update/profile/${userData._id}`,
+        `https://swastha.onrender.com/registration/update/profile/${userData._id}`,
         {
           name,
           mobile_number: phone,
@@ -75,7 +75,7 @@ const Profile = () => {
       }
 
       const response = await axios.put(
-        `http://localhost:4000/api/registration/update/user/password/${userData._id}`,
+        `https://swastha.onrender.com/registration/update/user/password/${userData._id}`,
         {
           current_password: currentPassword,
           password: newPassword,

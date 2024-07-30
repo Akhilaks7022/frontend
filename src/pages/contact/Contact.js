@@ -19,7 +19,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/contact/add",
+        "https://swastha.onrender.com/contact/add",
         formData
       );
       console.log("Contact form submitted:", response.data);

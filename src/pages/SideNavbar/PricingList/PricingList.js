@@ -29,7 +29,7 @@ const Pricing = () => {
       }
 
       const response = await axios.post(
-        "http://localhost:4000/api/registration/verify/user/sendEmail",
+        "https://swastha.onrender.com/registration/verify/user/sendEmail",
         {
           name: "Suhana", 
           email: "info@atmaparikshan.com", 
