@@ -1,5 +1,5 @@
 import React from "react";
-import MG_Road from "../../../assets/videos/MG_Road.mp4";
+// import MG_Road from "../../../assets/videos/MG_Road.mp4";
 import "../productsVideo.css";
 
 const SS = () => {
@@ -46,16 +46,31 @@ const SS = () => {
               public places such as malls, bus terminals, rail stations, metro
               stations, health centres, community centres, et al.
             </li>
-          </ul>
+
+          <p>
+          For more information, watch our video on YouTube:{" "}
+          <a
+            href="https://www.youtube.com/watch?v=qz0aGYrrlhU"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#dd2b1c", textDecoration: "underline" }}
+          >
+            https://www.youtube.com/watch?v=qz0aGYrrlhU
+          </a>
         </p>
+
+        </ul>
+        </p> 
+
+
       </div>
 
-      <div className="product-video-section">
+      {/* <div className="product-video-section">
         <video width="300" controls autoPlay>
           <source src={MG_Road} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
     </div>
   );
 };

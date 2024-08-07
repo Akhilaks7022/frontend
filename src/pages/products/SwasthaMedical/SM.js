@@ -1,5 +1,5 @@
 import React from "react";
-import Medical from "../../../assets/videos/Medical.mp4";
+// import Medical from "../../../assets/videos/Medical.mp4";
 import "../productsVideo.css";
 
 const SM = () => {
@@ -56,16 +56,34 @@ const SM = () => {
               Swastha Health station comes in convenient models to suit each
               customer namely Swastha Essential and Swastha Advanced.
             </li>
-          </ul>
-        </p>
-      </div>
 
-      <div className="product-video-section">
+            <p>
+          For more information, watch our video on YouTube:{" "}
+          <a
+            href="https://www.youtube.com/watch?v=qz0aGYrrlhU"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#dd2b1c", textDecoration: "underline" }}
+          >
+            https://www.youtube.com/watch?v=qz0aGYrrlhU
+          </a>
+        </p>
+          </ul>
+        </p> 
+
+        
+      </div>
+      {/* Add the clickable YouTube link here */}
+
+
+
+
+      {/* <div className="product-video-section">
         <video width="300" controls autoPlay>
           <source src={Medical} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
     </div>
   );
 };

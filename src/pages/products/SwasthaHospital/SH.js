@@ -1,5 +1,5 @@
 import React from "react";
-import Lab_Reports from "../../../assets/videos/Lab_Reports.mp4";
+// import Lab_Reports from "../../../assets/videos/Lab_Reports.mp4";
 import "../productsVideo.css";
 
 const SH = () => {
@@ -52,16 +52,29 @@ const SH = () => {
               redeployment of resources, improved customer experiences, and cost
               savings.
             </li>
-          </ul>
+
+            <p>
+          For more information, watch our video on YouTube:{" "}
+          <a
+            href="https://www.youtube.com/watch?v=qz0aGYrrlhU"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#dd2b1c", textDecoration: "underline" }}
+          >
+            https://www.youtube.com/watch?v=qz0aGYrrlhU
+          </a>
         </p>
+          </ul>
+          </p> 
+
       </div>
 
-      <div className="product-video-section">
+      {/* <div className="product-video-section">
         <video width="300" controls autoPlay>
           <source src={Lab_Reports} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
     </div>
   );
 };
