@@ -6,8 +6,8 @@ import logoSrc from "../../assets/images/logo.png";
 import "./footer.css";
 import Cert_logo from '../../assets/images/certified_logo.png';
 
-const map_embed_link =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8228100543993!2d77.57601617620043!3d12.919107283542536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1575b73b1a01%3A0xe6fabde09dedd19a!2s25%2C%205th%20Main%20Rd%2C%206th%20Block%2C%205th%20Block%2C%20Jayanagar%2C%20Bengaluru%2C%20Karnataka%20560041%2C%20India!5e0!3m2!1sen!2sus!4v1704085374809!5m2!1sen!2sus";
+const map_embed_link ="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15555.235993244656!2d77.56765023500033!3d12.919994398247756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15750da9ab6b%3A0x8f713b010e8abd07!2s40th%20Cross%20Rd%2C%208th%20Block%2C%20Jayanagar%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1727414299969!5m2!1sen!2sin"
+  // "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8228100543993!2d77.57601617620043!3d12.919107283542536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1575b73b1a01%3A0xe6fabde09dedd19a!2s25%2C%205th%20Main%20Rd%2C%206th%20Block%2C%205th%20Block%2C%20Jayanagar%2C%20Bengaluru%2C%20Karnataka%20560041%2C%20India!5e0!3m2!1sen!2sus!4v1704085374809!5m2!1sen!2sus";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -19,6 +19,9 @@ const Footer = () => {
 
   return (
     <div className="footer">
+      <footer>
+      <button onClick={scrollToTop}>Scroll to Top</button>
+    </footer>
       <div className="footer-column">
         <div className="logo-container">
           <img src={logoSrc} alt="Logo" />
@@ -35,7 +38,7 @@ const Footer = () => {
             &nbsp;info@atmaparikshan.com
           </p>
           <p>
-            25, 5th Main Rd, <br /> 5th Block, Jayanagar, <br /> Bengaluru - 560041,<br />
+            309/5, J.K. Pride, 2nd Floor,40th cross <br /> 8th Block, Jayanagar, <br /> Bengaluru - 560041,<br />
             Karnataka, India
           </p>
         </div>

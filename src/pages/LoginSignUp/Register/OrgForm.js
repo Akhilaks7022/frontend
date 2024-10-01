@@ -14,7 +14,7 @@ function OrgForm({ type }) {
             message: "Please enter your name!",
           },
           {
-            pattern: /^[A-Za-z\s]+$/,
+            pattern: /^[A-Z][a-zA-Z\s]*$/,
             message: "Only Alphabets and space is allowed.",
           },
         ]}
@@ -31,7 +31,7 @@ function OrgForm({ type }) {
             message: "Please enter your organization name!",
           },
           {
-            pattern: /^[A-Za-z\s]+$/,
+            pattern:  /^[a-zA-Z\s]+$/,
             message: "Only Alphabets and space is allowed.",
           },
         ]}
@@ -48,7 +48,7 @@ function OrgForm({ type }) {
             message: "Please enter your position!",
           },
           {
-            pattern: /^[A-Za-z\s]+$/,
+            pattern:  /^[a-zA-Z\s]+$/,
             message: "Only Alphabets and space is allowed.",
           },
         ]}
@@ -83,7 +83,7 @@ function OrgForm({ type }) {
             message: "Please enter your mobile number!",
           },
           {
-            pattern: /^(?!(\d)\1{9})[6789]\d{9}$/,
+            pattern:  /^[6789]\d{9}$/,
             message: "Please enter a valid mobile number",
           },
         ]}

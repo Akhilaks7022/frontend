@@ -137,7 +137,7 @@ const Navbarmenu = () => {
                         <a href="/SV2">CBC RAIN</a>
                       </li>
                       <li>
-                        <a href="/SV2">BMD RAIN</a>
+                        <a href="/SV3">BMD RAIN</a>
                       </li>
                     </ul>
                   </li>

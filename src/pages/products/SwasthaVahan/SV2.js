@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "../MedVahan.module.css";
-import Image from "../../../assets/images/SV1.png";
+import Image from "../../../assets/images/SV2.png";
 
 const SV2 = () => {
   const parameters = [

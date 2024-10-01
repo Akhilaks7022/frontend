@@ -60,12 +60,12 @@ const SM = () => {
             <p>
           For more information, watch our video on YouTube:{" "}
           <a
-            href="https://www.youtube.com/watch?v=qz0aGYrrlhU"
+            href="https://www.youtube.com/shorts/1QcS16CSmhQ"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#dd2b1c", textDecoration: "underline" }}
           >
-            https://www.youtube.com/watch?v=qz0aGYrrlhU
+          https://www.youtube.com/shorts/1QcS16CSmhQ
           </a>
         </p>
           </ul>

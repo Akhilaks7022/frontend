@@ -33,6 +33,26 @@ import kanakapura6 from "../../assets/images/event3/kanakapura6.jpg";
 import kanakapura7 from "../../assets/images/event3/kanakapura7.jpg";
 import kanakapura8 from "../../assets/images/event3/kanakapura8.jpg";
 import kanakapura9 from "../../assets/images/event3/kanakapura9.jpg";
+import img1 from "../../assets/images/event4/img1.jpg";
+import img2 from "../../assets/images/event4/img2.jpg";
+import img3 from "../../assets/images/event4/img3.jpg";
+import img4 from "../../assets/images/event4/img4.jpg";
+import img5 from "../../assets/images/event4/img5.jpg";
+import img6 from "../../assets/images/event4/img6.jpg";
+import img7 from "../../assets/images/event4/img7.jpg";
+import img8 from "../../assets/images/event4/img8.jpg";
+import img9 from "../../assets/images/event4/img9.jpg";
+import img10 from "../../assets/images/event4/img10.jpg";
+import img11 from "../../assets/images/event4/img11.jpg";
+import img12 from "../../assets/images/event4/img12.jpg";
+import img13 from "../../assets/images/event4/img13.jpg";
+import img14 from "../../assets/images/event4/img14.jpg";
+import img15 from "../../assets/images/event4/img15.jpg";
+import img16 from "../../assets/images/event4/img16.jpg";
+import img17 from "../../assets/images/event4/img17.jpg";
+import img18 from "../../assets/images/event4/img18.jpg";
+import img19 from "../../assets/images/event4/img19.jpg";
+import img20 from "../../assets/images/event4/img20.jpg";
 import "./events.css";
 
 import "lightgallery/css/lightgallery.css";
@@ -49,6 +69,30 @@ import lgAutoplay from "lightgallery/plugins/autoplay";
 import lgFullscreen from "lightgallery/plugins/fullscreen";
 import lgShare from "lightgallery/plugins/share";
 import lgRotate from "lightgallery/plugins/rotate";
+
+const fourthEvent = [
+  { src: img1, alt: "1" },
+  { src: img2, alt: "2" },
+  { src: img3, alt: "3" },
+  { src: img4, alt: "4" },
+  { src: img5, alt: "5" },
+  { src: img6, alt: "6" },
+  { src: img7, alt: "7" },
+  { src: img8, alt: "8" },
+  { src: img9, alt: "9" },
+  { src: img10, alt: "10" },
+  { src: img11, alt: "11" },
+  { src: img12, alt: "12" },
+  { src: img13, alt: "13" },
+  { src: img14, alt: "14" },
+  { src: img15, alt: "15" },
+  { src: img16, alt: "16" },
+  { src: img17, alt: "17" },
+  { src: img18, alt: "18" },
+  { src: img19, alt: "19" },
+  { src: img20, alt: "20" },
+];
+
 
 const thirdEvent = [
   { src: kanakapura1, alt: "1" },
@@ -98,6 +142,11 @@ function Gallery() {
   };
 
   const events = [
+    {
+      title:
+           "Inauguration of Health and Hygien Kiosks from Dr. Manjunath - 14th September 2024 ",
+      images: fourthEvent,     
+    },
     {
       title:
         "Health check-up camp at Shri Shanakara Mutt, Kote Kanakapura Town - 25th February 2024",

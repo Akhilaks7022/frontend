@@ -11,9 +11,29 @@ const Contact = () => {
     message: "",
   });
 
-  const handleChange = (checkedValues) => {
-    setFormData({ ...formData, products: checkedValues });
-  };
+
+const handleInputChange = (e) => {
+  const { name, value } = e.target;
+
+  if (name === "name") {
+    // Validate name to allow only letters
+    const isValidName = /^[A-Za-z\s]*$/.test(value);
+    if (!isValidName) {
+      message.error("Name can only contain letters and spaces.");
+      return;
+    }
+    
+    // Capitalize the first letter
+    const cleanedValue = value.trim().charAt(0).toUpperCase() + value.trim().slice(1);
+    setFormData({ ...formData, [name]: cleanedValue });
+  } else {
+    setFormData({ ...formData, [name]: value });
+  }
+};
+
+const handleCheckboxChange = (checkedValues) => {
+  setFormData({ ...formData, products: checkedValues });
+};
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -37,31 +57,25 @@ const Contact = () => {
       message.error("Failed to submit contact form. Please try again later.");
     }
   };
-
-  const handleInputChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
+  
+  
   return (
-    <section className="contact-us-section">
-      <div className="contact-info">
-        <h1 className="heading-contact">Contact Us</h1>
-        <br />
+  <section className="contact-us-section">
+    <div className="contact-info">
+      <h1 className="heading-contact">Contact Us</h1>
         <p className="getintouch-contact">
           Get in touch with us
-          <br />
-          <br />
+          <br /><br />
         </p>
         <p>
-          <strong>ADDRESS:</strong> #25, 5th Block, <br /> Jayanagar 5th Main{" "}
-          <br /> Bengaluru - 560041
+          <strong>ADDRESS:</strong> #309/5, J.K. Pride , 2nd Floor,40th Cross <br /> Jayanagar 8th Block{" "}
+          <br /> Bengaluru - 560082
           <br /> Karnataka, India
         </p>
         <p>
           <strong>PHONE:</strong> +91 9482661658 <br />
           &emsp;&emsp;&emsp;&nbsp; +91 8747893662
         </p>
-
         <p>
           <strong>E-MAIL:</strong> info@atmaparikshan.com
         </p>
@@ -91,7 +105,7 @@ const Contact = () => {
           <label htmlFor="checkboxGroup">
             Which product are you interested in?{" "}
           </label>
-          <Checkbox.Group onChange={handleChange} value={formData.products}>
+          <Checkbox.Group onChange={handleCheckboxChange} value={formData.products}>
             <Checkbox
               value="Swastha Medical"
               style={{
@@ -155,6 +169,6 @@ const Contact = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Contact;

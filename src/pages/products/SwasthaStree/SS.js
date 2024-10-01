@@ -50,12 +50,12 @@ const SS = () => {
           <p>
           For more information, watch our video on YouTube:{" "}
           <a
-            href="https://www.youtube.com/watch?v=qz0aGYrrlhU"
+            href="https://youtu.be/t3n6JxEvKxI?si=xGWvnBNABVvf7UAd"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#dd2b1c", textDecoration: "underline" }}
           >
-            https://www.youtube.com/watch?v=qz0aGYrrlhU
+            https://youtu.be/t3n6JxEvKxI?si=xGWvnBNABVvf7UAd
           </a>
         </p>
 

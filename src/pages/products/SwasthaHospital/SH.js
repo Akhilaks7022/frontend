@@ -56,12 +56,12 @@ const SH = () => {
             <p>
           For more information, watch our video on YouTube:{" "}
           <a
-            href="https://www.youtube.com/watch?v=qz0aGYrrlhU"
+            href="https://www.youtube.com/watch?si=83HoALGsjjcVKc3e&v=dDDmI8B7y-M&feature=youtu.be"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#dd2b1c", textDecoration: "underline" }}
           >
-            https://www.youtube.com/watch?v=qz0aGYrrlhU
+          https://www.youtube.com/watch?si=83HoALGsjjcVKc3e&v=dDDmI8B7y-M&feature=youtu.be
           </a>
         </p>
           </ul>

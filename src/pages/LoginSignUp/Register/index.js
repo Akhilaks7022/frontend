@@ -68,7 +68,7 @@ function Register() {
         >
           <h1 className="col-span-2 text-2xl text-center">
             <span>
-              {type.charAt(0).toUpperCase() + type.slice(1).toLowerCase()} -
+            {type.charAt(0).toUpperCase() + type.slice(1).toLowerCase()}
               Registration
             </span>
             <hr />
@@ -100,8 +100,8 @@ function Register() {
                     message: "Please enter your name",
                   },
                   {
-                    pattern: /^[A-Za-z\s]+$/,
-                    message: "Only alphabets and spaces are allowed.",
+                    pattern: /^[A-Z][a-zA-Z\s]*$/,
+                    message: "Name must start with a capital letter and contain only alphabets and spaces.",
                   },
                 ]}
               >
@@ -138,6 +138,10 @@ function Register() {
                   {
                     pattern: /^(?!(\d)\1{9})[6789]\d{9}$/,
                     message: "Please enter a valid mobile number",
+                  },
+                  {
+                    len: 10,
+                    message: "Mobile number must be exactly 10 digits long!",
                   },
                 ]}
               >
